@@ -11,7 +11,6 @@ export interface User {
 }
 
 interface AuthState {
-  token: string | null;
   user: User | null;
 }
 
