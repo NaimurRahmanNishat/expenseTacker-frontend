@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-  return typeof window !== 'undefined' ? 'http://localhost:5100' : 'http://localhost:5100';
+  return typeof window !== 'undefined' ? 'https://expense-tacker-backend-indol.vercel.app' : 'http://localhost:5100';
 };
 
 export { getBaseUrl };
